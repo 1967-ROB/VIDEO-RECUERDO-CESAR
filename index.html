@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>🎞️ Recuerdo en video</title>
+  <style>
+    body {
+      background: #fff5f7;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 4vh;
+      color: #880e4f;
+    }
+    h1 {
+      font-size: clamp(22px, 5vw, 32px);
+      margin-bottom: 4vh;
+    }
+    video {
+      width: 90%;
+      max-width: 480px;
+      border-radius: 20px;
+      box-shadow: 0 0 12px rgba(233, 30, 99, 0.5);
+    }
+    .logo {
+      width: 120px;
+      margin-top: 4vh;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎀 Un momento inolvidable</h1>
+  <video controls autoplay muted playsinline>
+    <source src="assets/video.mp4" type="video/mp4">
+    Tu navegador no soporta video.
+  </video>
+  <br>
+  <img src="assets/logo.png" alt="Logo" class="logo">
+</body>
+</html>
